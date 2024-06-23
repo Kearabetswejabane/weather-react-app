@@ -3,6 +3,9 @@
   color: rgb(135, 135, 135);
   padding: 16px;
   border: 1px solid rgb(206, 206, 158);
+  border-radius: 4px;
+
+  margin: 30px auto;
 }
 .Weather h1 {
   font-size: 24px;
