@@ -18,6 +18,10 @@ export default function App() {
             target="blank"
           >
             Open Sourced on Github
+          </a>{" "}
+          and{" "}
+          <a href="https://chic-cranachan-68b327.netlify.app" target="blank">
+            hosted on netlify
           </a>
         </footer>
       </div>
