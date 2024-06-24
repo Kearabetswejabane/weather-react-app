@@ -5,7 +5,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="Container Container Centered">
+      <div className="Container">
         <Weather />
         <footer>
           This project was coded by{" "}
@@ -13,7 +13,10 @@ export default function App() {
             Kearabetswe Jabane
           </a>{" "}
           and is{" "}
-          <a href="https://github.com/Kearabetswejabane" target="blank">
+          <a
+            href="https://github.com/Kearabetswejabane/weather-react-app"
+            target="blank"
+          >
             Open Sourced on Github
           </a>
         </footer>
