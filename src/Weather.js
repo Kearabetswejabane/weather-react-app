@@ -5,7 +5,7 @@ import "./Weather.css";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
-  const [city, setCity] = useState("New York");
+  const [city, setCity] = useState("North West");
   function handleResponse(response) {
     setWeatherData({
       ready: true,
