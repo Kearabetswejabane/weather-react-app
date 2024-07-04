@@ -17,15 +17,15 @@ export default function WeatherForecast(props) {
       <div className="WeatherForecast">
         <div className="row">
           <div className="col">
-            <WeatherForecastDay data={forecast[0]} />
+            <WeatherForecastDay data={props.data.forecast[0]} />
           </div>
         </div>
       </div>
     );
   } else {
     let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
-    let longitude = props?.coordinates?.lon;
-    let latitude = props?.coordinates?.lat;
+    let longitude = props?.data?.coordinates?.lon;
+    let latitude = props?.data?.coordinates?.lat;
     let apiUrl = `http://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
